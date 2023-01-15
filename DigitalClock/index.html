@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Clock App</title>
+    <link rel="stylesheet" href ="style.css">
+    <meta name="viewport" content="width=1366px, height=768px, initial-scale=1">
+</head>
+<body>
+<div id=clock>
+    <img src="./media/clock_logo.png">
+</div>
+
+<div id="Box1">
+    <div id="BOX1">
+        <img src="media/wake_up.jpg"
+        style="position:absolute;
+        top: 20px;
+        left: 30px;
+        width: 34px;
+        height: 34px;
+        background: transparent url('img/wake_up.png') 0% 0% no-repeat padding-box;
+        opacity: 1;">
+        <p class="text"
+        style="position:absolute;
+        top: 3px;left:90px;">Set wake up time</p>
+        <select id="time1" name="time">
+            <option value="10AM-11AM">10AM-11AM</option>
+            <option value="12PM-1PM">12PM-1PM</option>
+            <option value="2PM-4PM">2PM-4PM</option>
+
+        </select>
+
+    </div>
+
+    <div id="BOX2">
+        <img src="media/lunch_time.jpg"
+        style="position:absolute;
+        top: 102px;
+        left: 33px;
+        width: 34px;
+        height: 34px;
+        background: transparent url('img/lunch_time.png') 0% 0% no-repeat padding-box;
+        opacity: 1;">
+        <p class="text"
+        style="position:absolute;
+        top: 92px;left:89px;">Set lunch time</p>
+        <select id="time2" name="time">
+            <option value="12PM-1PM">12PM-1PM</option>
+            <option value="12PM-1PM">12PM-1PM</option>
+            <option value="2PM-4PM">2PM-4PM</option>
+
+        </select>
+    </div>
+
+    <div id="BOX3">
+        <img src="media/nap_time.jpg"
+        style="position:absolute;
+        top: 189px;
+        left: 30px;
+        width: 34px;
+        height: 34px;
+        background: transparent url('img/nap_time.png') 0% 0% no-repeat padding-box;
+        opacity: 1;">
+        <p class="text"
+        style="position:absolute;
+        top: 174px;left:89px;">Set nap time</p>
+        <select id="time3" name="time">
+            <option value="2PM-4PM">2PM-4PM</option>
+            <option value="12PM-1PM">12PM-1PM</option>
+            <option value="2PM-4PM">2PM-4PM</option>
+
+        </select>
+    </div>
+
+    <div id="BOX4">
+        <img src="media/nap_time.jpg"
+        style="position:absolute;
+        top: 287px;
+        left: 30px;
+        width: 34px;
+        height: 34px;
+        background: transparent url('img/nap_time.png') 0% 0% no-repeat padding-box;
+        opacity: 1;">
+        <p class="text"
+        style="position:absolute;
+        top: 269px;left:90px;">Set night time</p>
+        <select id="time4" name="time">
+            <option value="2PM-4PM">2PM-4PM</option>
+            <option value="12PM-1PM">12PM-1PM</option>
+            <option value="2PM-4PM">2PM-4PM</option>
+
+        </select>
+    </div>
+
+</div>
+
+<div id="GreetingBox">
+    <p id="greetmsg">GOOD MORNING!! WAKE UP!!</p>
+</div>
+
+<div id="SetAlarm">
+    Set Alarm
+</div>
+
+<div id="Schedule">
+    <div id="con">
+        <p>Wake Up Time: 10AM-11AM</p>
+        <p>Lunch Time: 12PM-1PM</p>
+        <p>Nap Time: 4PM-5PM</p>
+        <p>Night Time: 8PM-AM</p>
+    </div>
+
+</div>
+
+<div id="Timer">
+    <div id="ContentTimer">
+        <p id="Time">TIME</p>
+        <div class="one" id="card" style="position:absolute;left:60px;"><p id="hr">10</p> <p id="hour">hours</p></div>
+        <div class="one" id="card2"><p id="min">00</p> <p id="mins">mins</p> </div>
+        <div class="one" id="card3"><p id="sec">01</p><p id="secs">secs</p> </div>
+        <div class="one" id="card4" ><p id="Am">AM</p></div>
+    </div>
+
+</div>
+<div id="TImerBox"></div>
+<div id="TimerBox3"></div>
+
+<div id="gBox2">
+    <div id="content">GRAB SOME HEALTHY BREAKFAST!!!</div>
+</div>
+<div id="img">
+
+</div>
+
+</body>
+</html>
