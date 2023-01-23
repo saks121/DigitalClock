@@ -12,7 +12,7 @@ background: transparent url('img/clock_logo.png') 0% 0% no-repeat padding-box;
 opacity: 1;
 }
 
-#Box1{
+#Box{
 position:absolute;
 top: 149px;
 left: 124px;
@@ -345,17 +345,17 @@ background:transparent url('media/timeline.jpg');
 
 }
 
-#hour{
+#hour-text{
         font-size: 22px;
         position: absolute;
-        left: 14px;
+        left: 30px;
         bottom: -10px;
         color:#5F0089;
 }
 #hr{
         position: absolute;
         left: 28px;
-        font-size: 22px;
+        font-size: 50px;
         color: #8A11BF;
 }
 
@@ -365,10 +365,10 @@ background:transparent url('media/timeline.jpg');
 
 }
 
-#mins{
+#mins-text{
         font-size: 22px;
         position: absolute;
-        left: 14px;
+        left: 30px;
         bottom: -10px;
         color:#5F0089;
 }
@@ -376,7 +376,7 @@ background:transparent url('media/timeline.jpg');
 #min{
         position: absolute;
         left: 28px;
-        font-size: 22px;
+        font-size: 50px;
         color: #8A11BF;
 }
 #card3{
@@ -384,10 +384,10 @@ left:282px;
 background:transparent url('media/timeline.jpg');
 }
 
-#secs{
+#secs-text{
         font-size: 22px;
         position: absolute;
-        left: 14px;
+        left: 30px;
         bottom: -10px;
         color:#5F0089;
 }
@@ -395,7 +395,7 @@ background:transparent url('media/timeline.jpg');
 #sec{
         position: absolute;
         left: 28px;
-        font-size: 22px;
+        font-size: 50px;
         color: #8A11BF;
 }
 #card4{
@@ -404,10 +404,10 @@ background:transparent url('media/AM_svg.jpg');
 }
 
 #Am{
-        bottom: 10px;
-        position: absolute;
-        left: 21px;
-        font-size: x-large;
+     bottom: 21px;
+     position: absolute;
+     left: 12px;
+     font-size: 40px;
 }
 
 #gBox2{
