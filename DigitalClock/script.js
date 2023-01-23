@@ -6,6 +6,11 @@ let timeIN2 =document.getElementById("time2");
 let timeIN3 =document.getElementById("time3");
 let timeIN4 =document.getElementById("time4");
 
+let time =parseInt(timeIN.value);
+let time2 =parseInt(timeIN2.value);
+let time3 =parseInt(timeIN3.value);
+let time4 =parseInt(timeIN4.value);
+
 let greet =document.getElementById("greetmsg");
 let greet2 =document.getElementById("content");
 
@@ -74,10 +79,10 @@ function set(){
 
     // 1. fetches the input time from text box and show them in the time div
     let html="";
-    html+=`<p>Wake Up Time:${time1.value}AM-${time.1.value +1}AM</p>
-        <p>Lunch Time: ${time2.value}PM-{time2.value +1}PM</p>
-        <p>Nap Time: ${time3.value}PM-{time3.value + 1}PM</p>
-        <p>Night Time: ${time4.value}PM-${time4.1.value +1}</p>
+    html +=`<p>Wake Up Time: ${parseInt(timeIN.value)}AM-${parseInt(timeIN.value) +1}AM </p>
+        <p>Lunch Time: ${parseInt(timeIN2.value)-12}PM-${(parseInt(timeIN2.value)-12) +1}PM </p>
+        <p>Nap Time: ${parseInt(timeIN3.value)-12}PM-${(parseInt(timeIN3.value)-12)+ 1}PM </p>
+        <p>Night Time: ${parseInt(timeIN4.value)-12}PM-${(parseInt(timeIN4.value)-12)+1}PM </p>
     `;
     cont.innerHTML =html;
     console.log(timeIN.value,typeof(timeIN.value));
@@ -113,7 +118,7 @@ function set(){
         img.style.background="transparent url('media/lunch_image.png') 0% 0% no-repeat padding-box";
     }
 
-    else if(parseInt(timeIN4.value) ===hr){
+    else if(parseInt(timeIN4.value) === hr){
         console.log("if 4 executed");
         console.log(parseInt(timeIN.value));
         greet.innerText ="GOOD NIGHT!!";
